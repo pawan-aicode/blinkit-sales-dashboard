@@ -39,7 +39,9 @@ Open `Blinkit_Sales_Dashboard.pbix` with Power BI Desktop to inspect and interac
 
 ## Screenshots
 
-The `screenshots/` folder is reserved for screenshots of the dashboard. It is intentionally empty until screenshots are supplied; no screenshots have been fabricated for this repository.
+### Dashboard Preview
+
+![Blinkit Sales Dashboard](screenshots/blinkit-dashboard.png)
 
 ## Repository Notes
 
