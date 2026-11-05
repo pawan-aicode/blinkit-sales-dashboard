@@ -8,34 +8,31 @@ An interactive Blinkit sales analysis dashboard built with Microsoft Power BI. T
 
 ## Project Objectives
 
-- Present headline sales and rating metrics in a single report.
-- Explore performance across outlet and product dimensions.
-- Provide interactive filtering for common outlet and item attributes.
+- Analyze overall sales performance.
+- Examine product category and fat-content performance.
+- Compare outlet performance.
+- Understand sales distribution across outlet characteristics.
 
 ## Tools and Technologies
 
 - Microsoft Power BI Desktop
-- Power BI report (`.pbix`)
-- Markdown documentation
 
-The repository does not document specific DAX measures, Power Query transformations, or a Power BI version.
+Microsoft Power BI is the only report-development tool verified from the project files. Specific DAX measures, Power Query transformations, and the Power BI version are not documented in the repository.
 
-## Dataset
+## Key Performance Indicators
 
-The dataset source and download location are not documented in the repository. No external dataset link or provenance is asserted here.
+| KPI | Displayed value | What it represents |
+| --- | ---: | --- |
+| Total Sales | $1.20M | The total sales value displayed by the report. |
+| Average Sales | $141 | The average sales value displayed by the report. |
+| Number of Items | 8,523 | The number of items displayed by the report. |
+| Average Rating | 3.9 | The average rating displayed by the report. |
 
-## Dashboard KPIs
+These descriptions reflect the report labels and displayed values; the underlying calculation definitions are not documented separately.
 
-| KPI | Displayed value |
-| --- | ---: |
-| Total Sales | $1.20M |
-| Average Sales | $141 |
-| Number of Items | 8,523 |
-| Average Rating | 3.9 |
+## Dashboard Features
 
-## Dashboard Features and Analysis
-
-The dashboard includes analysis views for:
+The dashboard provides analysis views for:
 
 - Outlet Establishment
 - Fat Content
@@ -44,40 +41,46 @@ The dashboard includes analysis views for:
 - Outlet Location
 - Outlet Type
 
-## Available Filters
+## Interactive Filters
 
 - Outlet Location Type
 - Outlet Size
 - Item Type
 
-## Visible Observations
+## Key Observations
 
-These are observations from the supplied dashboard preview, not conclusions about the underlying dataset:
+The following are direct observations from the supplied dashboard screenshot, not business conclusions:
 
-- The report displays total sales of $1.20M, average sales of $141, 8,523 items, and an average rating of 3.9.
-- The Outlet Establishment visual shows values by year, including a visible high point of $205K in 2018.
+- The headline cards display total sales of $1.20M, average sales of $141, 8,523 items, and an average rating of 3.9.
+- The Outlet Establishment visual shows sales values by year and a visible high point of $205K in 2018.
 - The Outlet Type table compares total sales, number of items, average sales, average rating, and item visibility across outlet types.
 
-## How to Use the Project
+Further data-level analysis would be required to validate trends, explain causes, or draw business conclusions beyond these visible observations.
+
+## Dataset Information
+
+The dataset source and provenance are not documented in the repository. No external dataset link or download location is asserted here.
+
+## How to Run
 
 1. Clone or download this repository.
-2. Open `Blinkit_Sales_Dashboard.pbix` using Microsoft Power BI Desktop.
-3. Interact with the report filters and visuals.
+2. Open `Blinkit_Sales_Dashboard.pbix` in Microsoft Power BI Desktop.
+3. Interact with the report visuals and filters.
 
-## Limitations and Assumptions
+## Limitations
 
 - The PBIX file is required to inspect and interact with the report.
 - The repository does not include a documented dataset source or separate data extract.
 - The screenshot is a static preview and does not provide report interactivity.
 - Calculations and transformations inside the PBIX are not described because they were not independently documented in the repository.
 
-## Repository Structure
+## Project Structure
 
 ```text
 .
-├── Blinkit_Sales_Dashboard.pbix
 ├── README.md
 ├── .gitignore
+├── Blinkit_Sales_Dashboard.pbix
 └── screenshots/
     ├── .gitkeep
     └── blinkit-dashboard.png
